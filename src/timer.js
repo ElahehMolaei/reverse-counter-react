@@ -34,6 +34,7 @@ class Timer extends React.Component {
 
         if (this.state.time === 0) {
             clearInterval(interval)
+            alert('پایان!')
         }
     }
     //هروقت این کامپوننت بسته شد چیکار کنیم ؟ اینکارو با این تابع می کنیم:
