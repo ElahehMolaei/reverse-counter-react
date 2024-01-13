@@ -3,9 +3,11 @@ import ReactDOM from 'react-dom/client';
 
 class Hello extends React.Component {
     render(){
+        // پراپس میشه همون مقادیری که از کامپوننت های دیگه به اینجا ارسال شده 
+        // console.log(this.props)
         return(
             <h1>
-                hello every body
+                {this.props.my_title}
             </h1>
         )
     }
